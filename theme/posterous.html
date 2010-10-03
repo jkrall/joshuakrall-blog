@@ -46,7 +46,7 @@
               {block:AskEnabled}<div class="btn-ask"><a href="/ask">ASK</a></div>{/block:AskEnabled}
               {block:SubmissionsEnabled}<div class="btn-write"><a href="/submit">Submit a Post</a></div>{/block:SubmissionsEnabled}
             </div>
-            <h1 class="typekit-heading" title="{Title}"><a href="/">{Title}</a></h1>
+            <h1 class="heading" title="{Title}"><a href="/">{Title}</a></h1>
          </div>
 
          <div id="header-end">
@@ -62,31 +62,31 @@
 
         {block:IndexPage}
           {block:HasPages}
-            <div id="description"><h3 class="typekit-heading">
+            <div id="description"><h3 class="heading">
             {block:Pages}
               <a href="{URL}">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</a>
             {/block:Pages}
             </h3></div>
           {/block:HasPages}
           {block:Description}
-            <div id="description"><h3 class="typekit-heading">{Description}</h3></div>
+            <div id="description"><h3 class="heading">{Description}</h3></div>
           {/block:Description}
         {/block:IndexPage}
         {block:PermalinkPage}
           {block:HasPages}
-            <div id="description"><h3 class="typekit-heading">
+            <div id="description"><h3 class="heading">
             {block:Pages}
               <a href="{URL}">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</a>
             {/block:Pages}
             </h3></div>
           {/block:HasPages}
           {block:Description}
-            <div id="description"><h3 class="typekit-heading">{Description}</h3></div>
+            <div id="description"><h3 class="heading">{Description}</h3></div>
           {/block:Description}
         {/block:PermalinkPage}
 
         {block:TagPage}
-          <div id="tagsdisplay"><h3 class="typekit-heading">Posts Tagged: <span class="tagshowing">{Tag}</span></h3></div>
+          <div id="tagsdisplay"><h3 class="heading">Posts Tagged: <span class="tagshowing">{Tag}</span></h3></div>
         {/block:TagPage}
 
         {block:Posts}
@@ -95,14 +95,14 @@
             <div class="post-header">
               <div class="post-color">
                 <div class="title-texture">
-                  {block:Title}<h2 class="typekit-heading"><a href="{Permalink}">{Title}</a></h2>{/block:Title}
-                  {block:Quote}<h2 class="typekit-heading"><a href="{Permalink}">Quote</a></h2>{/block:Quote}
-                  {block:Photo}<h2 class="typekit-heading"><a href="{Permalink}">Photo</a></h2>{/block:Photo}
-                  {block:Photoset}<h2 class="typekit-heading"><a href="{Permalink}">Photo Set</a></h2>{/block:Photoset}
-                  {block:Link}<h2 class="typekit-heading"><a href="{Permalink}">Link</a></h2>{/block:Link}
-                  {block:Video}<h2 class="typekit-heading"><a href="{Permalink}">Video</a></h2>{/block:Video}
-                  {block:Answer}<h2 class="typekit-heading"><a href="{Permalink}">Answer</a></h2>{/block:Answer}
-                  {block:Audio}<h2 class="typekit-heading"><a href="{Permalink}">Audio</a></h2>{/block:Audio}
+                  {block:Title}<h2 class="heading"><a href="{Permalink}">{Title}</a></h2>{/block:Title}
+                  {block:Quote}<h2 class="heading"><a href="{Permalink}">Quote</a></h2>{/block:Quote}
+                  {block:Photo}<h2 class="heading"><a href="{Permalink}">Photo</a></h2>{/block:Photo}
+                  {block:Photoset}<h2 class="heading"><a href="{Permalink}">Photo Set</a></h2>{/block:Photoset}
+                  {block:Link}<h2 class="heading"><a href="{Permalink}">Link</a></h2>{/block:Link}
+                  {block:Video}<h2 class="heading"><a href="{Permalink}">Video</a></h2>{/block:Video}
+                  {block:Answer}<h2 class="heading"><a href="{Permalink}">Answer</a></h2>{/block:Answer}
+                  {block:Audio}<h2 class="heading"><a href="{Permalink}">Audio</a></h2>{/block:Audio}
                 </div>
 
                 {block:Audio}<div class="cap-audio"><a href="{Permalink}">Audio</a></div>{/block:Audio}
@@ -120,7 +120,7 @@
               <div class="post-spacer"></div>
             </div>
             <div class="clear"></div>
-            <div class="post-info typekit-heading">
+            <div class="post-info heading">
               <div class="parts">{block:Date}{TimeAgo}{/block:Date}&nbsp;&nbsp;&nbsp;
                 {block:HasTags}|&nbsp;&nbsp;&nbsp;Tags:
                   {block:Tags}
@@ -140,7 +140,7 @@
               <p>
                 {block:Quote}
                   <div id="quotes">
-                    <h3 class="typekit-heading floatleft">"{Quote}"</h3>
+                    <h3 class="heading floatleft">"{Quote}"</h3>
                     <div class="clear"></div>
                     <div class="quote-name">- {Source}</div>
                     <div class="clear"></div>
@@ -148,7 +148,7 @@
                 {/block:Quote}
 
                 {block:Link}
-                <h3 class="typekit-heading floatleft"><a href="{URL}" {Target}>{Name}</a></h3><div class="clear"></div>
+                <h3 class="heading floatleft"><a href="{URL}" {Target}>{Name}</a></h3><div class="clear"></div>
                   {block:Description}{Description}{/block:Description}
                 {/block:Link}
 
@@ -174,14 +174,14 @@
                   <ul>
                     <li class="chat">
                       <div>
-                        <span class="answertags typekit-heading">Question:</span>
+                        <span class="answertags heading">Question:</span>
                         <span class="message bold">{Question} - {Asker}</span>
                         <div class="clear"></div>
                       </div>
                     </li>
                     <li class="chat">
                       <div>
-                        <span class="answertags typekit-heading">Answer:</span>
+                        <span class="answertags heading">Answer:</span>
                         <span class="message">{Answer}</span>
                         <div class="clear"></div>
                       </div>
