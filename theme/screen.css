@@ -106,7 +106,7 @@ body { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/them
     .btn-next a:hover{ background-position: 0 -51px }
 
 blockquote.posterous_short_quote, blockquote.posterous_medium_quote {
-  font-size:1em;
-  line-height:1.5em;
+  font-size: 1.75em;
+  line-height: 1.1em;
   font-family: "tandelle-1","tandelle-2",sans-serif;
 }
