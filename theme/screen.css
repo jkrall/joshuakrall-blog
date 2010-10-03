@@ -104,3 +104,12 @@ body { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/them
     .btn-prev a:hover{ background-position: 0 -51px }
     .btn-next a{ width: 51px; height: 51px; background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/btn-next.png) top left no-repeat; float: left; text-indent: -99999em}
     .btn-next a:hover{ background-position: 0 -51px }
+
+blockquote {
+  font-size:1em;
+  line-height:1.5em;
+  font-style:italic;
+  font-family:Georgia,"Times New Roman",serif;
+  background:url(../images/bg-blockquote.png) no-repeat left top;
+  padding-left:56px;
+}
