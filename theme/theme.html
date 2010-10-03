@@ -160,7 +160,10 @@
                   </div>
                 {/block:Quote}
 
-                {block:Link}<h3 class="bebas floatleft"><a href="{URL}" {Target}>{Name}</a></h3><div class="clear"></div>{/block:Link}
+                {block:Link}
+                <h3 class="bebas floatleft"><a href="{URL}" {Target}>{Name}</a></h3><div class="clear"></div>
+                  {block:Description}{Description}{/block:Description}
+                {/block:Link}
 
                 {block:Caption}{Caption}{block:Caption}
 
