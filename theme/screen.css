@@ -108,4 +108,5 @@ body { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/them
 blockquote {
   font-size:1em;
   line-height:1.5em;
+  font-family: "tandelle-1","tandelle-2",sans-serif;
 }
