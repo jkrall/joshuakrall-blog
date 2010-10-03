@@ -90,24 +90,8 @@
               <div class="post-color">
                 <div class="title-texture">
                   {block:Title}<h2 class="heading"><a href="{Permalink}">{Title}</a></h2>{/block:Title}
-                  {block:Quote}<h2 class="heading"><a href="{Permalink}">Quote</a></h2>{/block:Quote}
-                  {block:Photo}<h2 class="heading"><a href="{Permalink}">Photo</a></h2>{/block:Photo}
-                  {block:Photoset}<h2 class="heading"><a href="{Permalink}">Photo Set</a></h2>{/block:Photoset}
-                  {block:Link}<h2 class="heading"><a href="{Permalink}">Link</a></h2>{/block:Link}
-                  {block:Video}<h2 class="heading"><a href="{Permalink}">Video</a></h2>{/block:Video}
-                  {block:Answer}<h2 class="heading"><a href="{Permalink}">Answer</a></h2>{/block:Answer}
-                  {block:Audio}<h2 class="heading"><a href="{Permalink}">Audio</a></h2>{/block:Audio}
                 </div>
-
-                {block:Audio}<div class="cap-audio"><a href="{Permalink}">Audio</a></div>{/block:Audio}
-                {block:Chat}<div class="cap-chat"><a href="{Permalink}">Chat</a></div>{/block:Chat}
-                {block:Answer}<div class="cap-chat"><a href="{Permalink}">Answer</a></div>{/block:Answer}
-                {block:Link}<div class="cap-link"><a href="{Permalink}">Link</a></div>{/block:Link}
-                {block:Photo}<div class="cap-photo"><a href="{Permalink}">Photo</a></div>{/block:Photo}
-                {block:Photoset}<div class="cap-photo"><a href="{Permalink}">Photo Set</a></div>{/block:Photoset}
-                {block:Text}<div class="cap-post"><a href="{Permalink}">Text</a></div>{/block:Text}
-                {block:Quote}<div class="cap-quote"><a href="{Permalink}">Quote</a></div>{/block:Quote}
-                {block:Video}<div class="cap-video"><a href="{Permalink}">Video</a></div>{/block:Video}
+                {block:Text}<div class="cap-post"><a href="{Permalink}">Post</a></div>{/block:Text}
 
                 <div class="clear"></div>
               </div>
@@ -122,82 +106,33 @@
                   {/block:Tags}
                   &nbsp;
                 {/block:HasTags}
-                {block:NoteCount}|&nbsp;&nbsp;&nbsp;Notes: <a href="{Permalink}#notes">{NoteCount}</a>{/block:NoteCount}&nbsp;&nbsp;
               </div>
               <div class="clear"></div>
             </div>
             <div class="post-content">
-              {Video-500}
-              {AudioPlayerBlack}
-              {Photoset-500}
-              {block:Photo}{LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}">{LinkCloseTag}{/block:Photo}
               <p>
-                {block:Quote}
-                  <div id="quotes">
-                    <h3 class="heading floatleft">"{Quote}"</h3>
-                    <div class="clear"></div>
-                    <div class="quote-name">- {Source}</div>
-                    <div class="clear"></div>
-                  </div>
-                {/block:Quote}
-
-                {block:Link}
-                <h3 class="heading floatleft"><a href="{URL}" {Target}>{Name}</a></h3><div class="clear"></div>
-                  {block:Description}{Description}{/block:Description}
-                {/block:Link}
-
-                {block:Caption}{Caption}{block:Caption}
-
                 {Body}
 
-                {block:Chat}
-                  <ul>
-                    {block:Lines}
-                      <li class="chat">
-                        <div>
-                        {block:Label}<span class="name">{Label}</span>{/block:Label}
-                        <span class="message">{Line}</span>
-                        <div class="clear"></div>
-                        </div>
-                      </li>
-                    {/block:Lines}
-                  </ul>
-                {/block:Chat}
+                {block:Comments}
+                  {block:CommentsList action_id='comment_link_{PostID}' target_element='post_commentarea_{PostID}'}
+                    <div id='post_commentarea_{PostID}'></div>
+                    <p><a href="#" id='comment_link_{PostID}'>Comments</a> [{CommentCount}]</p>
+                  {/block:CommentsList}
 
-                {block:Answer}
-                  <ul>
-                    <li class="chat">
-                      <div>
-                        <span class="answertags heading">Question:</span>
-                        <span class="message bold">{Question} - {Asker}</span>
-                        <div class="clear"></div>
+                  {block:CommentsShow}
+                    <a name="comment"></a>
+                    <div class="spanningheader" style="margin-top: 0px;">
+                      <h4>Comments ({CommentCount})</h4>
+                    </div>
+                    {CommentCode}
+                    <div class="posterousAddNewComment">
+                      <div class="spanningheader">
+                        <h4>Leave a comment...</h4>
                       </div>
-                    </li>
-                    <li class="chat">
-                      <div>
-                        <span class="answertags heading">Answer:</span>
-                        <span class="message">{Answer}</span>
-                        <div class="clear"></div>
-                      </div>
-                    </li>
-                  </ul>
-                {/block:Answer}
-
-                {block:ContentSource}
-                  <a href="{SourceURL}" target="_blank">
-                      {lang:Source}:
-                      {block:SourceLogo}
-                          <img src="{BlackLogoURL}" width="{LogoWidth}"
-                          height="{LogoHeight}" alt="{SourceTitle}" />
-                      {/block:SourceLogo}
-                      {block:NoSourceLogo}
-                          {SourceLink}
-                      {/block:NoSourceLogo}
-                  </a>
-                {/block:ContentSource}
-
-                {block:PostNotes}<div id="notes">{PostNotes}</div>{/block:PostNotes}
-
+                      {NewCommentCode}
+                    </div>
+                  {/block:CommentsShow}
+                {/block:Comments}
               </p>
             </div>
           </div>
