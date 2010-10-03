@@ -43,8 +43,6 @@
             <div id="header-icons">
               <div class="btn-rss"><a href="{RSS}">RSS</a></div>
               <div class="btn-archive"><a href="/archive">ARCHIVE</a></div>
-              {block:AskEnabled}<div class="btn-ask"><a href="/ask">ASK</a></div>{/block:AskEnabled}
-              {block:SubmissionsEnabled}<div class="btn-write"><a href="/submit">Submit a Post</a></div>{/block:SubmissionsEnabled}
             </div>
             <h1 class="heading" title="{Title}"><a href="/">{Title}</a></h1>
          </div>
@@ -60,7 +58,7 @@
 
       <div id="container" class="clear">
 
-        {block:IndexPage}
+        {block:List}
           {block:HasPages}
             <div id="description"><h3 class="heading">
             {block:Pages}
@@ -68,11 +66,9 @@
             {/block:Pages}
             </h3></div>
           {/block:HasPages}
-          {block:Description}
-            <div id="description"><h3 class="heading">{Description}</h3></div>
-          {/block:Description}
-        {/block:IndexPage}
-        {block:PermalinkPage}
+          <div id="description"><h3 class="heading">Thoughts, links, photos, whatever crosses my mind...</h3></div>
+        {/block:List}
+        {block:Show}
           {block:HasPages}
             <div id="description"><h3 class="heading">
             {block:Pages}
@@ -80,10 +76,8 @@
             {/block:Pages}
             </h3></div>
           {/block:HasPages}
-          {block:Description}
-            <div id="description"><h3 class="heading">{Description}</h3></div>
-          {/block:Description}
-        {/block:PermalinkPage}
+          <div id="description"><h3 class="heading">Thoughts, links, photos, whatever crosses my mind...</h3></div>
+        {/block:Show}
 
         {block:TagPage}
           <div id="tagsdisplay"><h3 class="heading">Posts Tagged: <span class="tagshowing">{Tag}</span></h3></div>
