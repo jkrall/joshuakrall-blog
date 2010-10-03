@@ -30,40 +30,40 @@ p img{padding: 5px;}
 /*
 * LAYOUT
 */
-body { background: url(http://static.tumblr.com/ts2nqrf/Iayl8dtss/bg.jpg) top left repeat; font-family: Arial, sans-serif; color: #4f4f4f; font-size: 14px}
+body { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/bg.jpg) top left repeat; font-family: Arial, sans-serif; color: #4f4f4f; font-size: 14px}
 #wrapper
 #header { overflow: hidden}
-  #header-pat { background: url(http://static.tumblr.com/ts2nqrf/fGxl8du40/texture.png) top left repeat}
+  #header-pat { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/texture.png) top left repeat}
   #header-top { padding: 120px 0 0 190px; position: relative; width: 820px; }
   #header-icons { position: absolute; right: 0px; top: 40px; width: 224px}
     #header-icons a { width: 51px; height: 51px; text-indent: -99999em; float: right; margin-left: 5px }
     #header-icons a:hover { background-position: 0 -51px}
-    .btn-rss a { background: url(http://static.tumblr.com/ts2nqrf/WMYl8dtw5/btn-rss.png) top left no-repeat;}
-    .btn-archive a { background: url(http://static.tumblr.com/ts2nqrf/rDPl8dttf/btn-archive.png) top left no-repeat;}
-    .btn-ask a { background: url(http://static.tumblr.com/ts2nqrf/7pMl8dtu4/btn-ask.png) top left no-repeat;}
-    .btn-write a{ background: url(http://static.tumblr.com/ts2nqrf/vBrl8eq7n/btn-write.png) top left no-repeat}
-  #header-bot { background: url(http://static.tumblr.com/ts2nqrf/XiBl8du1p/header-bot.png) top left no-repeat; width: 1010px; height: 18px;}
-  #header-cap { background: url(http://static.tumblr.com/ts2nqrf/Iayl8dtss/bg.jpg) top left repeat; width: 100%; height: 18px; position: absolute; margin-top: -18px; left: 1010px}
+    .btn-rss a { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/btn-rss.png) top left no-repeat;}
+    .btn-archive a { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/btn-archive.png) top left no-repeat;}
+    .btn-ask a { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/btn-ask.png) top left no-repeat;}
+    .btn-write a{ background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/btn-write.png) top left no-repeat}
+  #header-bot { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/header-bot.png) top left no-repeat; width: 1010px; height: 18px;}
+  #header-cap { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/bg.jpg) top left repeat; width: 100%; height: 18px; position: absolute; margin-top: -18px; left: 1010px}
   #header-end { position:relative; width:100%; overflow:hidden}
 #container { width: 1010px; min-height: 600px; padding-bottom: 60px}
 #post { margin: 55px 0 0 0; position: relative;}
   .post-header { height: 60px; width: 1010px; }
     .post-color { height: 60px; float: left; min-width: 246px; overflow: hidden}
     .post-spacer { float: left; height: 60px }
-    .title-texture { background: url(http://static.tumblr.com/ts2nqrf/hsHl8du32/header-texture.png) top left repeat-x; padding: 30px 0 0 190px; height: 30px; float: left; max-width: 739px; overflow: hidden; position: relative}
-    .cap-audio a{ background: url(http://static.tumblr.com/ts2nqrf/7Akl8dtwr/cap-audio.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
+    .title-texture { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/header-texture.png) top left repeat-x; padding: 30px 0 0 190px; height: 30px; float: left; max-width: 739px; overflow: hidden; position: relative}
+    .cap-audio a{ background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/cap-audio.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
     .cap-audio { float: left;}
-    .cap-chat a{ background: url(http://static.tumblr.com/ts2nqrf/Lpnl8dtxh/cap-chat.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
+    .cap-chat a{ background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/cap-chat.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
     .cap-chat { float: left;}
-    .cap-link a{ background: url(http://static.tumblr.com/ts2nqrf/RnBl8dty5/cap-link.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
+    .cap-link a{ background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/cap-link.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
     .cap-link { float: left;}
-    .cap-photo a{ background: url(http://static.tumblr.com/ts2nqrf/LPVl8dtys/cap-photo.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
+    .cap-photo a{ background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/cap-photo.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
     .cap-photo { float: left;}
-    .cap-post a{ background: url(http://static.tumblr.com/ts2nqrf/0IEl8dtzb/cap-post.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
+    .cap-post a{ background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/cap-post.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
     .cap-post { float: left;}
-    .cap-quote a{ background: url(http://static.tumblr.com/ts2nqrf/XIOl8dtzt/cap-quote.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
+    .cap-quote a{ background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/cap-quote.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
     .cap-quote { float: left;}
-    .cap-video a{ background: url(http://static.tumblr.com/ts2nqrf/4vgl8du0b/cap-video.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
+    .cap-video a{ background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/cap-video.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
     .cap-video { float: left;}
   .post-info { padding: 20px 0 0 190px; position: relative; width: 820px; font-size: 19px; color: #4f4f4f;}
   .post-info .parts { float: left; padding-right: 10px; width: 820px}
@@ -84,12 +84,10 @@ body { background: url(http://static.tumblr.com/ts2nqrf/Iayl8dtss/bg.jpg) top le
   #quotes {margin-bottom: 30px}
   #tagsdisplay { width: 820px; padding: 40px 0 0 190px;}
   #description { width: 820px; padding: 20px 0 0 190px;}
-  #footer-pat { background: url(http://static.tumblr.com/ts2nqrf/fGxl8du40/texture.png) top left repeat}
-  #footer-top { background: url(http://static.tumblr.com/ts2nqrf/IR0l8du0x/footer-top.png) top left repeat-x; width: 100%; height: 18px;}
+  #footer-pat { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/texture.png) top left repeat}
+  #footer-top { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/footer-top.png) top left repeat-x; width: 100%; height: 18px;}
   #footer-bot { height: 153px; padding: 20px 0 0 190px; width: 820px;}
-    .attribution { font-family: sans-serif; background: url(http://static.tumblr.com/ts2nqrf/59ol8dts1/attribution.png) top left no-repeat; font-size: 19px; padding: 12px 10px 10px 10px; width: 153px; height: 15px; text-align: center; float: right}
-    .attribution a { color: #6e6e6e}
-    .btn-prev a{ width: 51px; height: 51px; background: url(http://static.tumblr.com/ts2nqrf/CxLl8dtvm/btn-prev.png) top left no-repeat; float: left; text-indent: -99999em; margin-right: 5px}
+    .btn-prev a{ width: 51px; height: 51px; background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/btn-prev.png) top left no-repeat; float: left; text-indent: -99999em; margin-right: 5px}
     .btn-prev a:hover{ background-position: 0 -51px }
-    .btn-next a{ width: 51px; height: 51px; background: url(http://static.tumblr.com/ts2nqrf/IMbl8dtut/btn-next.png) top left no-repeat; float: left; text-indent: -99999em}
+    .btn-next a{ width: 51px; height: 51px; background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/btn-next.png) top left no-repeat; float: left; text-indent: -99999em}
     .btn-next a:hover{ background-position: 0 -51px }
