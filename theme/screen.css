@@ -35,7 +35,7 @@ body { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/them
 #header { overflow: hidden}
   #header-pat { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/texture.png) top left repeat}
   #header-top { padding: 120px 0 0 190px; position: relative; width: 820px; }
-  #header-icons { position: absolute; right: 0px; top: 40px; width: 224px}
+  #header-icons { position: absolute; right: 0px; top: 31px; width: 224px}
     #header-icons a { width: 51px; height: 51px; text-indent: -99999em; float: right; margin-left: 5px }
     #header-icons a:hover { background-position: 0 -51px}
     .btn-rss a { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/btn-rss.png) top left no-repeat;}
