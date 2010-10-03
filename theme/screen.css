@@ -5,10 +5,19 @@ h1.heading {
   margin-top: -15px;
   margin-bottom: 0;
 }
-h2 { color: #fff; font-weight: normal; font-size: 30px; font-family: sans-serif; line-height: 60px; margin-right: 25px; margin-top: -10px; height: 60px; overflow: hidden}
+h2 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 38px;
+  font-family: sans-serif;
+  line-height: 60px;
+  margin-right: 25px;
+  margin-top: -28px;
+  height: 60px;
+  overflow: hidden
+}
 h2 a { color: #fff !important; line-height: 60px;}
 h2 a:hover { color: #fff !important; text-decoration: none}
-h2 .cufon { padding-bottom: 60px !important}
 h3 { color: #4F4F4F; font-weight: bold; font-size: 25px; line-height: normal; margin-bottom: 5px}
 h3 a:hover { text-decoration: none}
 a { color: #4b8dc9; text-decoration: none; outline: none;}
