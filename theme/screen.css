@@ -2,8 +2,8 @@ h1 { color: #fff; font-weight: normal; font-size: 64px; font-family: sans-serif;
 h1 a { color: #fff}
 h1 a:hover { color: #fff; text-decoration: none}
 h1.heading {
-  margin-bottom: -5px;
   margin-top: -15px;
+  margin-bottom: 0;
 }
 h2 { color: #fff; font-weight: normal; font-size: 30px; font-family: sans-serif; line-height: 60px; margin-right: 25px; margin-top: -10px; height: 60px; overflow: hidden}
 h2 a { color: #fff !important; line-height: 60px;}
