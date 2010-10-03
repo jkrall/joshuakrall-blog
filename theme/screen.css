@@ -105,7 +105,7 @@ body { background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/them
     .btn-next a{ width: 51px; height: 51px; background: url(http://github.com/jkrall/joshuakrall-blog/raw/master/theme/images/btn-next.png) top left no-repeat; float: left; text-indent: -99999em}
     .btn-next a:hover{ background-position: 0 -51px }
 
-blockquote {
+blockquote.posterous_short_quote, blockquote.posterous_medium_quote {
   font-size:1em;
   line-height:1.5em;
   font-family: "tandelle-1","tandelle-2",sans-serif;
