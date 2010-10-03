@@ -1,0 +1,10 @@
+h1 { margin: 0 0 -13px 0;}
+h1.heading {
+  margin-top: -15px !important;
+  margin-bottom: 0 !important;
+  float: left;
+}
+h2 { margin-top: -25px }
+.header-texture { padding: 10px 0 0 190px; height: 50px;}
+.post-content { padding-top: 0px}
+.post-info .parts { padding-right: 0px}
