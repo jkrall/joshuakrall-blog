@@ -42,7 +42,6 @@
          <div id="header-top">
             <div id="header-icons">
               <div class="btn-rss"><a href="{RSS}">RSS</a></div>
-              <div class="btn-archive"><a href="/archive">ARCHIVE</a></div>
             </div>
             <h1 class="heading" title="{Title}"><a href="/">{Title}</a></h1>
          </div>
@@ -57,27 +56,12 @@
       </div>
 
       <div id="container" class="clear">
-
-        {block:List}
-          {block:HasPages}
-            <div id="description"><h3 class="heading">
-            {block:Pages}
-              <a href="{URL}">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            {/block:Pages}
-            </h3></div>
-          {/block:HasPages}
-          <div id="description"><h3 class="heading">Thoughts, links, photos, whatever crosses my mind...</h3></div>
-        {/block:List}
-        {block:Show}
-          {block:HasPages}
-            <div id="description"><h3 class="heading">
-            {block:Pages}
-              <a href="{URL}">{Label}&nbsp;&nbsp;&nbsp;&nbsp;</a>
-            {/block:Pages}
-            </h3></div>
-          {/block:HasPages}
-          <div id="description"><h3 class="heading">Thoughts, links, photos, whatever crosses my mind...</h3></div>
-        {/block:Show}
+        <div id="description">
+          <h3 class="heading">Thoughts, links, photos, whatever crosses my mind...</h3>
+          {block:Pages}
+            <a href="{URL}">{Label}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          {/block:Pages}
+        </div>
 
         {block:TagPage}
           <div id="tagsdisplay"><h3 class="heading">Posts Tagged: <span class="tagshowing">{Tag}</span></h3></div>
