@@ -78,7 +78,7 @@ body { background: url(images/bg.jpg) top left repeat; font-family: "Helvetica N
     .cap-quote { float: left;}
     .cap-video a{ background: url(images/cap-video.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
     .cap-video { float: left;}
-  .post-info { padding: 20px 0 0 190px; position: relative; width: 820px; font-size: 19px; color: #4f4f4f;}
+  .post-info { padding: 10px 0 0 190px; position: relative; width: 820px; font-size: 22px; color: #4f4f4f;}
   .post-info .parts { float: left; padding-right: 10px; width: 820px}
   .post-info ul { list-style: none; float: left; padding: 0px; max-width: 820px}
   .post-info li { display: inline; padding-right: 10px; margin-left: 0px; word-wrap:break-word;}
