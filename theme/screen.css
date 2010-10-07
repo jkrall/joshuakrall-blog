@@ -43,7 +43,7 @@ p img{padding: 5px;}
 /*
 * LAYOUT
 */
-body { background: url(images/bg.jpg) top left repeat; font-family: Arial, sans-serif; color: #4f4f4f; font-size: 14px}
+body { background: url(images/bg.jpg) top left repeat; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; color: #4f4f4f; font-size: 14px}
 #wrapper
 #header { overflow: hidden}
   #header-pat { background: url(images/texture.png) top left repeat}
@@ -83,7 +83,7 @@ body { background: url(images/bg.jpg) top left repeat; font-family: Arial, sans-
   .post-info ul { list-style: none; float: left; padding: 0px; max-width: 820px}
   .post-info li { display: inline; padding-right: 10px; margin-left: 0px; word-wrap:break-word;}
   .tags { padding-left: 10px;}
-  .post-content { padding: 15px 0 0 190px; position: relative; width: 820px; line-height: 22px; word-wrap:break-word;}
+  .post-content { padding: 15px 0 0 190px; position: relative; width: 820px; line-height: 1.5em; word-wrap:break-word;}
   .post-content p{ word-wrap: break-word !important;}
   blockquote { border-left: 3px solid; padding-left: 10px; margin-bottom: 10px}
   blockquote p { padding-bottom: 0px}
