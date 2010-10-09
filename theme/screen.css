@@ -1,4 +1,12 @@
-h1 { color: #fff; font-weight: normal; font-size: 64px; font-family: sans-serif; margin-bottom: -7px; max-width: 830px; line-height: 50px}
+h1 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 64px;
+  font-family: sans-serif;
+  margin-bottom: -7px;
+  max-width: 830px;
+  line-height: 50px
+}
 h1 a { color: #fff}
 h1 a:hover { color: #fff; text-decoration: none}
 
@@ -17,21 +25,21 @@ h2 {
   height: 60px;
   overflow: hidden
 }
-h2 a { color: #fff !important; line-height: 60px;}
-h2 a:hover { color: #fff !important; text-decoration: none}
+h2 a { line-height: 60px;}
+h2 a:hover { text-decoration: none}
 
 #description a {
   float: right;
   font-weight: normal;
   font-size: 1.5em;
   line-height: 1em;
-  color: #1E5475;
+  color: #1E638F;
 }
 #description h3 {
   font-weight: normal;
   font-size: 1.5em;
   line-height: 1em;
-  color: #1E5475;
+  color: #1E638F;
   float: left;
   width: 600px;
   margin-bottom: 1.25em;
