@@ -33,13 +33,11 @@ h2 a:hover { text-decoration: none}
   font-weight: normal;
   font-size: 1.5em;
   line-height: 1em;
-  color: #1E638F;
 }
 #description h3 {
   font-weight: normal;
   font-size: 1.5em;
   line-height: 1em;
-  color: #1E638F;
   float: left;
   width: 600px;
   margin-bottom: 1.25em;
@@ -139,3 +137,15 @@ blockquote.posterous_short_quote, blockquote.posterous_medium_quote {
   margin-bottom: 10px;
   font-size: 12px;
 }
+
+#footer { background-color: #000; }
+#header { background-color: #000; }
+#description a { color: #1E638F; }
+#description h3 { color: #1E638F; }
+#post a { color: #C10000;}
+#post h2 a { color: #FFF; }
+#post h2 a:hover { color: #C6C1A5; }
+.name { color: #C10000; }
+.answertags { color: #C10000; }
+.post-color { background-color: #C10000; }
+.tagshowing { color: #C10000; }
