@@ -151,3 +151,12 @@ blockquote.posterous_short_quote, blockquote.posterous_medium_quote {
 .answertags { color: #C10000; }
 .post-color { background-color: #C10000; }
 .tagshowing { color: #C10000; }
+
+/* styles to use before Typekit is loaded */
+.wf-loading h1, .wf-loading h2, .wf-loading h3 {
+  visibility: hidden;
+}
+/* styles to use after Typekit is loaded */
+.wf-active h1, .wf-active h2, .wf-active h3 {
+  visibility: visible;
+}
