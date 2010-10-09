@@ -77,6 +77,8 @@ body { background: url(images/bg.jpg) top left repeat; font-family: "Helvetica N
     .post-spacer { float: left; height: 60px }
     .timeago {
       font-size: 20px;
+      margin-left: 30px;
+      margin-top: 24px;
     }
     .title-texture { background: url(images/header-texture.png) top left repeat-x; padding: 30px 0 0 190px; height: 30px; float: left; max-width: 739px; overflow: hidden; position: relative}
     .cap-post a{ background: url(images/cap-post.png) top left no-repeat; height: 60px; width: 56px; float: left; text-indent: -99999em}
