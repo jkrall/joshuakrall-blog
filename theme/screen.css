@@ -25,12 +25,14 @@ h3.heading {
   float: left;
   width: 600px;
   margin-bottom: 1.25em;
+  color: #1E5475;
 }
 #description a {
   font-size: 2.5em;
   font-family: "tandelle-1","tandelle-2",sans-serif;
   float: right;
   line-height: 1em;
+  color: #1E5475;
 }
 
 h3 { color: #4F4F4F; font-weight: bold; font-size: 25px; line-height: normal; margin-bottom: 5px}
