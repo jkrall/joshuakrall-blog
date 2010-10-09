@@ -21,6 +21,7 @@
     <style type="text/css">
       #footer { background-color: {color:Color1}; }
       #header { background-color: {color:Color1}; }
+      #header-top { padding: 48px 0 0 190px; }
       #post a { color: {color:Color2};}
       #description a { color: {color:Color2};}
       .name { color: {color:Color2};}
@@ -78,12 +79,11 @@
 
                 <div class="clear"></div>
               </div>
-              <div class="post-spacer"></div>
+              <div class="post-spacer"><div class='timeago'>{TimeAgo}</div></div>
             </div>
             <div class="clear"></div>
             <div class="post-info heading">
-              <div class="parts">{TimeAgo}&nbsp;&nbsp;&nbsp;
-                {block:HasTags}|&nbsp;&nbsp;&nbsp;Tags:
+              <div class="parts">{block:HasTags}|&nbsp;&nbsp;&nbsp;Tags:
                   {block:Tags}
                     <span class="tags"><a href="{TagURL}">{Tag}</a></span>
                   {/block:Tags}
@@ -142,4 +142,3 @@
   </body>
 </html>
 
-​
