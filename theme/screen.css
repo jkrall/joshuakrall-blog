@@ -79,7 +79,7 @@ body { background: url(images/bg.jpg) top left repeat; font-family: "Helvetica N
   #header-end { position:relative; width:100%; overflow:hidden}
 #container { width: 1010px; min-height: 600px; padding-bottom: 60px}
 #post { margin: 25px 0 0 0; position: relative;}
-  .post-header { height: 60px; width: 1010px; }
+  .post-header { height: 60px; width: 1200px; }
     .post-color { height: 60px; float: left; min-width: 246px; overflow: hidden}
     .post-spacer { float: left; height: 60px }
     .timeago {
@@ -105,7 +105,8 @@ body { background: url(images/bg.jpg) top left repeat; font-family: "Helvetica N
     border: none !important;
     background: url(images/bg-quote-left.png) no-repeat scroll left top transparent;
     padding-left: 60px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    min-height:40px;
   }
 
   blockquote p { padding-bottom: 0px}
