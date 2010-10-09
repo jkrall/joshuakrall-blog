@@ -85,7 +85,7 @@ body { background: url(images/bg.jpg) top left repeat; font-family: "Helvetica N
     .timeago {
       font-size: 20px;
       position: relative;
-      left: 10px;
+      left: 15px;
       top: 25px;
     }
     .title-texture { background: url(images/header-texture.png) top left repeat-x; padding: 30px 0 0 190px; height: 30px; float: left; max-width: 739px; overflow: hidden; position: relative}
