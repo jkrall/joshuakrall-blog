@@ -148,6 +148,7 @@ blockquote.posterous_short_quote, blockquote.posterous_medium_quote {
 #post a { color: #C10000;}
 #post h2 a { color: #FFF; }
 #post h2 a:hover { color: #C6C1A5; }
+.timeago { color: #1E638F; }
 .name { color: #C10000; }
 .answertags { color: #C10000; }
 .post-color { background-color: #C10000; }
