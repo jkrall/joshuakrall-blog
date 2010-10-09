@@ -97,6 +97,10 @@ body { background: url(images/bg.jpg) top left repeat; font-family: "Helvetica N
   .tags { padding-left: 10px;}
   .post-content { padding: 15px 0 0 190px; position: relative; width: 820px; line-height: 1.5em; word-wrap:break-word;}
   .post-content p{ word-wrap: break-word !important;}
+  .post-content img, .post-content object {
+    border: 1px solid #76A4C1;
+    padding: 2px;
+  }
 
   blockquote {
     border: none !important;
