@@ -45,7 +45,7 @@ h3 { color: #4F4F4F; font-weight: bold; font-size: 25px; line-height: normal; ma
 h3 a:hover { text-decoration: none}
 a { color: #4b8dc9; text-decoration: none; outline: none;}
 a:hover { color: #e79214; text-decoration: underline;}
-p{ margin: 0; padding: 0 0 15px 0;}
+p{ margin: 15px 0; padding: 0;}
 p img{padding: 5px;}
 ul { padding: 10px 0 10px 0;}
 ul li{ margin-left: 35px; list-style: square; margin-bottom: 5px}
