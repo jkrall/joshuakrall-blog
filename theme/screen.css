@@ -49,10 +49,6 @@ p{ margin: 0; padding: 0;}
 p img{padding: 5px;}
 ul { padding: 10px 0 10px 0;}
 ul li{ margin-left: 35px; list-style: square; margin-bottom: 5px}
-ol { padding: 10px 0 10px 0;}
-ol li{ margin-left: 35px; list-style: circle; margin-bottom: 5px}
-p{ margin: 0; padding: 0 0 15px 0;}
-p img{padding: 5px;}
 .bold { font-weight: bold}
 .floatleft { float: left !important}
 .floatright { float: right !important}
