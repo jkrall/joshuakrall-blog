@@ -137,6 +137,10 @@ blockquote.posterous_short_quote, blockquote.posterous_medium_quote {
   font-size: 12px;
 }
 
+div.comment { margin: 0 0 0 10px }
+div.comment h4, div.comment > div { margin-left:-10px; }
+
+
 #footer { background-color: #000; }
 #header { background-color: #000; }
 #description a { color: #6D98B3; }
@@ -149,6 +153,7 @@ blockquote.posterous_short_quote, blockquote.posterous_medium_quote {
 .answertags { color: #5BA2CD; }
 .post-color { background-color: #C10000; }
 .tagshowing { color: #5BA2CD; }
+div.commentunit { color: #ACACAC; }
 
 /* styles to use before Typekit is loaded */
 .wf-loading h1, .wf-loading h2, .wf-loading h3 {
