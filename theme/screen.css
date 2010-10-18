@@ -9,7 +9,7 @@ h1 {
   margin-top: 3px;
   margin-bottom: 0;
 }
-h1 a { color: #fff}
+h1 a { color: #CCCCCC}
 h1 a:hover { color: #fff; text-decoration: none}
 
 h2 {
@@ -41,7 +41,7 @@ h2 a:hover { text-decoration: none}
   margin-bottom: 1.25em;
 }
 
-h3 { color: #4F4F4F; font-weight: bold; font-size: 25px; line-height: normal; margin-bottom: 5px}
+h3 { color: #ACACAC; font-weight: bold; font-size: 25px; line-height: normal; margin-bottom: 5px}
 h3 a:hover { text-decoration: none}
 a { color: #4b8dc9; text-decoration: none; outline: none;}
 a:hover { color: #e79214; text-decoration: underline;}
@@ -58,7 +58,7 @@ ul li{ margin-left: 35px; list-style: square; margin-bottom: 5px}
 /*
 * LAYOUT
 */
-body { background: url(images/bg.jpg) top left repeat; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; color: #4f4f4f; font-size: 14px}
+body { background: url(images/bg.jpg) top left repeat; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; color: #ACACAC; font-size: 14px}
 #wrapper
 #header { overflow: hidden}
   #header-pat { background: url(images/texture.png) top left repeat}
@@ -139,16 +139,16 @@ blockquote.posterous_short_quote, blockquote.posterous_medium_quote {
 
 #footer { background-color: #000; }
 #header { background-color: #000; }
-#description a { color: #1E638F; }
-#description h3 { color: #1E638F; }
-#post a { color: #C10000;}
+#description a { color: #6D98B3; }
+#description h3 { color: #6D98B3; }
+#post a { color: #5BA2CD;}
 #post h2 a { color: #FFF; }
 #post h2 a:hover { color: #C6C1A5; }
-.timeago { color: #1E638F; }
+.timeago { color: #999999; }
 .name { color: #C10000; }
-.answertags { color: #C10000; }
-.post-color { background-color: #C10000; }
-.tagshowing { color: #C10000; }
+.answertags { color: #5BA2CD; }
+.post-color { background-color: #5BA2CD; }
+.tagshowing { color: #5BA2CD; }
 
 /* styles to use before Typekit is loaded */
 .wf-loading h1, .wf-loading h2, .wf-loading h3 {
