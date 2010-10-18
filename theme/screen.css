@@ -147,7 +147,7 @@ blockquote.posterous_short_quote, blockquote.posterous_medium_quote {
 .timeago { color: #999999; }
 .name { color: #C10000; }
 .answertags { color: #5BA2CD; }
-.post-color { background-color: #5BA2CD; }
+.post-color { background-color: #C10000; }
 .tagshowing { color: #5BA2CD; }
 
 /* styles to use before Typekit is loaded */
