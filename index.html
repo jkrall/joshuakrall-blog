@@ -90,13 +90,13 @@
                 {block:Comments}
                   {block:CommentsList action_id='comment_link_{PostID}' target_element='post_commentarea_{PostID}'}
                     <div id='post_commentarea_{PostID}'></div>
-                    <p><a href="#" id='comment_link_{PostID}'>Comments</a> [{CommentCount}]</p>
+                    <p><a href="#" id='comment_link_{PostID}'>{CommentCount} Comments</a></p>
                   {/block:CommentsList}
 
                   {block:CommentsShow}
                     <a name="comment"></a>
                     <div class="spanningheader" style="margin-top: 0px;">
-                      <h4>Comments ({CommentCount})</h4>
+                      <h4>{CommentCount} Comments</h4>
                     </div>
                     {CommentCode}
                     <div class="posterousAddNewComment">
@@ -133,4 +133,3 @@
   </body>
 </html>
 
-​
