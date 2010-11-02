@@ -101,9 +101,11 @@ body { background: url(images/bg.jpg) top left repeat; font-family: "Helvetica N
   blockquote {
     border: none !important;
     background: url(images/bg-quote-left.png) no-repeat scroll left top transparent;
-    padding-left: 60px;
-    margin-bottom: 10px;
-    min-height:40px;
+    padding-left: 60px !important;
+    margin-bottom: 10px !important;
+    min-height:40px !important;
+    line-height: 1.2em !important;
+    font-family: "tandelle-1","tandelle-2",sans-serif !important;
   }
 
   blockquote p { padding-bottom: 0px}
@@ -125,7 +127,6 @@ body { background: url(images/bg.jpg) top left repeat; font-family: "Helvetica N
     .btn-next a{ width: 51px; height: 51px; background: url(images/btn-next.png) top left no-repeat; float: left; text-indent: -99999em}
     .btn-next a:hover{ background-position: 0 -51px }
 
-blockquote.posterous_short_quote, blockquote.posterous_medium_quote { font-family: "tandelle-1","tandelle-2",sans-serif; }
 blockquote.posterous_short_quote:before, blockquote.posterous_medium_quote:before { content: ""; }
 blockquote.posterous_short_quote:after, blockquote.posterous_medium_quote:after { content: ""; }
 
